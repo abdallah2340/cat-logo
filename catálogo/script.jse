@@ -6,8 +6,8 @@ const c = (el)=>document.querySelector(el);
 const cs = (el)=>document.querySelectorAll(el);
 
 // Listagem das pizzas
-pizzaJson .map((item, index)=>{
-  let pizzaItem = c('.models .pizza-item').cloneNode(true);
+pizzaJson.map((item, index)=>{
+    let pizzaItem = c('.models .pizza-item').cloneNode(true);
     
     pizzaItem.setAttribute('data-key', index);
     pizzaItem.querySelector('.pizza-item--img img').src = item.img;
@@ -158,7 +158,5 @@ function updateCart() {
     } else {
         c('aside').classList.remove('show');
         c('aside').style.left = '100vw';
-  
     }
-
 }
