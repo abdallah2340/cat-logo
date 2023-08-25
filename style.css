@@ -46,7 +46,7 @@ body {
     display:inline-flex;
     position: absolute;
     top: 140px;
-    left: 90px;
+    left: 70px;
     right: 30px;
     
     
@@ -56,10 +56,11 @@ body {
    background-color: #050505;
    color: #ffffff;
    display: block;
-   top: 129px;
-   left: 50px;
+   top: 105px;
+   left: 60px;
    right: 80px;
    position:absolute;
+
    align-items: center;
 
 }
@@ -69,8 +70,8 @@ body {
     display:flex;
     margin:0;
        align-items:center;
-        width: 500px;
-        height: 480px;
+        width: 400px;
+        height: 380px;
         padding: 15px;
         border: solid #090909;
         background: linear-gradient(135deg, rgb(238, 197, 238), rgba(203, 241, 237, 0.521) 60%, rgb(196, 229, 243));
