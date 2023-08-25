@@ -63,7 +63,7 @@ body {
    align-items: center;
 
 }
-#popup{
+.popup{
     font-family:'Lato',Helvetica,Arial;
     font-size:15px;
     display:flex;
