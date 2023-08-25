@@ -38,15 +38,16 @@ body {
     display:none;
 }
 .rodapé{ 
- background-color:white;
-  color: rgb(6, 6, 6);
-  position: absolute;
+ background-color:rgb(255, 254, 254);
+  color: #060606;
   bottom: 0;
   width:100%;
   margin: auto auto;
   padding: 10px 5px;
   min-height: 00%;
-
+  position: fixed;
+  bottom:0;
+  left:0;
 }
 
 header {

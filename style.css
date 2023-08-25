@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 
+   
 }
 body {
     background: linear-gradient(135deg, rgb(246, 154, 246), rgba(81, 0, 255, 0.521) 60%, rgb(76, 66, 137));
@@ -37,15 +38,79 @@ body {
 .models {
     display:none;
 }
+.dod{
+    
+    color: #1f221f;
+    text-align: center;
+    box-sizing: border-box;
+    display:inline-flex;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    right: 30px;
+    
+    
+}
+.botao{
+    border-radius: 15px;
+   background-color: #050505;
+   color: #ffffff;
+   display: block;
+   top: 129px;
+   left: 80px;
+   right: 80px;
+   position:absolute;
+   align-items: center;
+
+}
+#popup{
+    font-family:'Lato',Helvetica,Arial;
+    font-size:15px;
+    display:flex;
+    margin:0;
+       align-items:center;
+        width: 500px;
+        height: 480px;
+        padding: 15px;
+        border: solid #090909;
+        background: linear-gradient(135deg, rgb(238, 197, 238), rgba(203, 241, 237, 0.521) 60%, rgb(196, 229, 243));
+        display:flex;
+     justify-content: flex-end;
+        position: fixed;
+        top: 0; bottom: 0; 
+        left: 0; right:0;
+        margin: auto;
+    
+
+    }
+@keyframes rou {
+    0% { background-color: #ffffff ;
+    opacity: 100%;}
+    50% { background-color: #ffffff ;
+        opacity: 50%;}
+    100% {background-color: #fffefe;
+    opacity: 0%;}
+    
+}
+
+
 .rodapé{ 
- background-color:white;
-  color: rgb(6, 6, 6);
-  position: absolute;
-  bottom: 0;
+ background-color: #ffffff;
+  color: rgb(13, 13, 13);
   width:100%;
   margin: auto auto;
   padding: 10px 5px;
   min-height: 00%;
+  position:fixed;
+    bottom:0;
+    left:0;
+    animation-name: rou;
+    animation-duration: 2s;
+    animation-delay: 1s ;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+
+    
 
 }
 
@@ -55,7 +120,7 @@ header {
     top:0;
     right:0;
     height:60px;
-    background-color:#6039de;
+    background-color:#4437ff;
     display:none;
     justify-content: flex-end;
     align-items: center;
@@ -63,7 +128,7 @@ header {
 .menu-openner {
     margin-right: 15px;
     font-size: 26px;
-    background-color: #a9dcff;
+    background-color: #fbfbff;
     padding: 5px 20px;
     border-radius: 5px;
 }
@@ -155,9 +220,12 @@ h1 {
     margin-top:5px;
 }
 .pizza-item--desc {
-    font-size:13px;
-    color:#555;
+    font-size:16px;
+    background-color: white;
+    letter-spacing: 3px;
     margin-top:10px;
+    table-layout: fixed;
+
 }
 
 .pizzaWindowArea {
@@ -460,6 +528,8 @@ h1 {
     .pizzaInfo--cancelMobileButton {
         display:block;
     }
-
+    #desc{
+       color: #000;
+}
 
 }

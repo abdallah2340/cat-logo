@@ -8,6 +8,21 @@
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="popup" class="popup">
+        <Div id="dod" class="dod"><h1>catálogo 2023</h1></Div>
+        
+		<a href="#" onclick="abrir();"></a><br>
+		<u href="#" onclick="fechar();">
+        <div id="botao" class="botao"><button id="botão" class="botao"> <u>iniciar a compra</u></button></u></div>
+        <script>
+			function abrir(){
+				document.getElementById('popup').style.display = 'block';
+			}
+			function fechar(){
+				document.getElementById('popup').style.display =  'none';
+			}
+		</script>
+    </div>
     <div class="models">
         <div class="pizza-item">
             <a href="">
@@ -16,7 +31,9 @@
             </a>
             <div class="pizza-item--price">R$ --</div>
             <div class="pizza-item--name">--</div>
+            <div id="desc">
             <div class="pizza-item--desc">--</div>
+        </div>
         </div>
         <div class="cart--item">
             <img src="" />
@@ -101,7 +118,7 @@
 </body>
 <div class = "rodapé">
     <foter>
-        dev
+        <a target="_blank" href="//www.linkedin.com/in/abdallah-muhammad-1136b7248/">desenvolvido por abdallah </a>
     </foter>
 </div>
 
